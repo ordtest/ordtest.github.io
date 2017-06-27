@@ -1,8 +1,11 @@
-# Article Meta Data (Front Matter) Sample
+
+## Article Meta Data (Front Matter) Sample
 
 
 
-## TOML (Tom's Obvious, Minimal Language)
+### TOML (Tom's Obvious, Minimal Language)
+
+Note: Use `+++`to begin and end meta data (front matter) block.
 
 
 ``` toml
@@ -31,7 +34,9 @@ type = "article"
 ```
 
 
-## YAML (Ain't Markup Language)
+### YAML (Ain't Markup Language)
+
+Note: Use `---` to begin and end meta data (front matter) block.
 
 ``` yaml
 ---
@@ -57,7 +62,9 @@ sitemap:
 ---
 ```
 
-## JSON (JavaScript Object Notation)
+### JSON (JavaScript Object Notation)
+
+Note: Use `{ }` or `[ ]` to begin and end meta data (front matter) block.
 
 ``` json
 {
@@ -82,7 +89,9 @@ sitemap:
 }
 ```
 
-## JSON5 (JavaScript Object Notation)
+### JSON5 (JavaScript Object Notation)
+
+Note: Use `{ }` or `[ ]` to begin and end meta data (front matter) block.
 
 ``` json5
 {
@@ -106,5 +115,4 @@ sitemap:
     }
 }
 ```
-
 
