@@ -7,3 +7,8 @@
 {% include_relative article.md %}
 
 
+
+
+**Data Types**
+
+{% include_relative bool.md %}
