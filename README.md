@@ -1,68 +1,39 @@
-[Data.TXT @ GitHub](https://github.com/datatxt)
+# Sandbox for Testing Ordinal (Recursive) Inscriptions in Your Browser
 
 
-# Data.TXT - Structured (Meta) Data in Text
+The idea is to cache all inscription content to test in `/content`
+with the filename matching the inscription id ... now that lets
+you test all (recursive) inscriptions in  your browser as is (that is, without any change in the source).
 
 
-Formats:
+Example 1 - Recursive Punk:
+
+``` svg
+<svg width="24px" height="24px" xmlns="http://www.w3.org/2000/svg">
+<image href="/content/7fbfed7e38bbcaf851c2c4426b4c4ede9d09b6e6fd87a040403852681c7c19c2i0" />
+<image href="/content/128d1e42f85e67d2a6b0c4c78e9ad47f7d66ed7699e77ddd0a4f0b8a21cdf736i0" />
+<image href="/content/62ec589582651e49ed722241dab3bdb93fbd8ddf3fab3d891a30165126dddbcfi0" />
+<image href="/content/b866e8f3f51c385a3ae27e65c5abe68e6086a6b74935b1b692de8587f5858148i0" />
+</svg>
+```
 
 
-**YAML (Ain't Markup Language) Family**
+Example 2 - D.I.Y. Punk:
 
-- "Standard" YAML
-- "Safe" YAML
-
-
-**TOML (Tom's Obvious, Minimal Language) & INI Family**
-
-- TOML
-- INI  -- All Values Strings??
-
-
-**JSON (JavaScript Object Notation) Family**
-
-- "Plain" JSON
-- JSON5
-- SON
-- HJSON
-- ...
-
-
-**CSV (Comma-Separated Values) Family** 
-
-- "Plain" CSV  -- All Values Strings??
-
-**Others**
-
-- Properties   -- All Values Strings??
+``` svg
+<svg width="24px" height="24px" xmlns="http://www.w3.org/2000/svg">
+<image x="0" y="0" width="24" height="24" href="/content/cf5df319bbe23fa3d012e5ee0810700c8e82aebff41164246f0d87d7b60a9903i0" />
+</svg>
+```
 
 
 
 
 
-{% include_relative article.md %}
+## Questions? Comments?
+
+Post them over at the [Help & Support](https://github.com/geraldb/help) page. Thanks.
 
 
 
 
-
-**Data Types**
-
-Primitive / Simple
-
-- String
-- Numbers
-- Bool(ean)
-- Null / Nil
-- Date / Datetime / Timestamp
-- Character ???
-
-Composite 
-
-- Hash (Table) / Object / Collection
-- Array / List
-
-
-{% include_relative bool.md %}
-
-{% include_relative null.md %}
