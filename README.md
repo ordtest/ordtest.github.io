@@ -17,6 +17,8 @@ Example 1 - Recursive Punk:
 </svg>
 ```
 
+=>  ![](https://ordtest.github.io/content/recursivepunk0.svg)
+
 
 Example 2 - D.I.Y. Punk:
 
@@ -28,6 +30,7 @@ Example 2 - D.I.Y. Punk:
 </svg>
 ```
 
+=> ![](https://ordtest.github.io/content/diypunk0.svg)
 
 
 

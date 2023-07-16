@@ -47,3 +47,34 @@ The following example demonstrates the three main techniques above.
 
 </svg>
 ```
+
+https://lists.w3.org/Archives/Public/www-svg/2008May/0011.html
+
+Source-image offset/dimensions control for the image element
+
+From: Erik Dahlström
+
+Hello www-svg,
+
+I'm wondering if there's interest in being able to control the offset,
+width and height of a raster image to draw in the <image> element, to be
+able to select exactly what part of the raster image to draw.
+
+Something similar to CSS background-position [1], which allows you to pick
+an arbitrary (x,y) offset of an image. This is often used to collect many
+sprites in one image, to be able to load multiple resources as one.
+
+In SVG it's only possible to use the 'preserveAspectRatio' attribute to
+control the position for raster images. The 1.1 spec says that when an
+<image> element references a raster image the implicit 'viewBox' has a
+value of "0 0 raster-image-width raster-image-height". If there was a way
+of controlling the implicit viewBox it would be possible to draw raster
+sprites more efficiently.
+
+It is possible to control all of this in SVG, using for example the clip,
+mask or pattern features. However, each of these comes at the price of
+additional processing, since they are meant to cover more advanced
+use-cases as well.
+
+Thoughts?
+
