@@ -1,7 +1,7 @@
 <!-- d.i.y. punk no. 1
-         5    - offset: x 5*24px = 120px, y 0*24px = 0px
-         28   -           8*24px = 192px, y 2*24px = 48px
-         57   -           7*24px = 168px, y 5*24px = 120px
+         5  (x 5, y 0)   - offset: x 5*24px = 120px, y 0*24px =   0px
+         28 (x 8, y 2)   -           8*24px = 192px, y 2*24px =  48px
+         57 (x 7, y 5)   -           7*24px = 168px, y 5*24px = 120px
 -->
 
 <svg width="24px" height="24px" xmlns="http://www.w3.org/2000/svg">

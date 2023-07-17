@@ -1,7 +1,7 @@
 <!-- d.i.y. punk no. 0
-         58    - offset: x 8*24px = 192px, y 5*24px = 120px
-         4     -           4*24px = 96px,  y 0*24px = 0px
-         19    -           9*24px = 216px, y 1*24px = 24px
+         58 (x 8, y 5)   - offset: x 8*24px = 192px, y 5*24px = 120px
+         4  (x 4, y 0)   -         x 4*24px =  96px, y 0*24px =   0px
+         19 (x 9, y 9)   -         x 9*24px = 216px, y 1*24px =  24px
 -->
 <svg width="24px" height="24px" xmlns="http://www.w3.org/2000/svg">
    <svg viewBox="192 120 24 24">
