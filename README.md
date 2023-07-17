@@ -17,20 +17,26 @@ Example 1 - Recursive Punk:
 </svg>
 ```
 
-=>  ![](https://ordtest.github.io/content/recursivepunk0.svg)
+<img src="https://ordtest.github.io/content/recursivepunk0.svg">
 
 
 Example 2 - D.I.Y. Punk:
 
 ``` svg
 <svg width="24px" height="24px" xmlns="http://www.w3.org/2000/svg">
-   <svg viewBox="0 0 24 24">
+   <svg viewBox="192 120 24 24">
+      <image width="240px" height="144px" href="/content/cf5df319bbe23fa3d012e5ee0810700c8e82aebff41164246f0d87d7b60a9903i0" />
+    </svg>
+   <svg viewBox="96 0 24 24">
+      <image width="240px" height="144px" href="/content/cf5df319bbe23fa3d012e5ee0810700c8e82aebff41164246f0d87d7b60a9903i0" />
+    </svg>
+   <svg viewBox="216 24 24 24">
       <image width="240px" height="144px" href="/content/cf5df319bbe23fa3d012e5ee0810700c8e82aebff41164246f0d87d7b60a9903i0" />
     </svg>
 </svg>
 ```
 
-=> ![](https://ordtest.github.io/content/diypunk0.svg)
+<img src="https://ordtest.github.io/content/diypunk0.svg">
 
 
 
