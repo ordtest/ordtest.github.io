@@ -11,41 +11,41 @@ Yes, PATENT PENDING!
 Tip: In the "right-click" menu select "Show source" to see the .SVG  source (text) document in your web browser.
 
 
+
 ## Recursive Punks
 
-133 .PNG "one-by-one" images - each 24x24px
+133 .PNG "one-by-one" images - each 24×24px
 
-- <https://ordtest.github.io/content/recursivepunk0.svg>.
+- <https://ordtest.github.io/recursivepunk0.svg> 
 
 
 ## Ordinal Punks
 
-2 .PNG "one-by-one" images - each 96x96px (8x)
+2 .PNG "one-by-one" images - each 96×96px (8x)
 
--  <https://ordtest.github.io/content/ordinalpunk1.svg>
+-  <https://ordtest.github.io/ordinalpunk1.svg> 
 
 
 ## D.I.Y. Punks
 
-1 .PNG spritesheet - 240x144px (10x6 grid - 24x24px)
+1 .PNG "spritesheet" image - 240×144px (10×6 grid - 24×24px)
 
-- <https://ordtest.github.io/content/diypunk0.svg>
-- <https://ordtest.github.io/content/diypunk1.svg>
+- <https://ordtest.github.io/diypunk0.svg>
+- <https://ordtest.github.io/diypunk1.svg>
 
 
 ## D.I.Y. Apes
 
-26 .PNG "one-by-one" images - each 24x24px
+26 .PNG "one-by-one" images - each 24×24px
 
-- <https://ordtest.github.io/content/diyape0.svg>
-
+- <https://ordtest.github.io/diyape0.svg> 
 
 
 ### D.I.Y. Lost Files
 
-5 .PNG spritesheet(s) - each 96x96px (4x4 grid - 24x24px)
+5 .PNG "spritesheet" images - each 96×96px (4×4 grid - 24×24px)
 
-- <https://ordtest.github.io/content/lostfile0.svg>
+- <https://ordtest.github.io/lostfile0.svg> 
 
 
 
