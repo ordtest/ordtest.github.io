@@ -90,7 +90,7 @@ buf =<<TXT
 <svg
   xmlns="http://www.w3.org/2000/svg"
   width="100%" height="100%"
-  viewBox="0 0 1000 1000">
+  viewBox="0 0 2000 2000">
 TXT
 
 
@@ -123,10 +123,10 @@ style = pixelate ? %Q[style="image-rendering: pixelated;"] : ''
       
 
 buf += <<TXT 
-  <g transform="translate(#{x*100},#{y*100})">
+  <g transform="translate(#{x*200},#{y*200})">
    <!-- #{comment} -->
    <image
-     width="100" height="100"
+     width="200" height="200"
      href="/content/#{id}"
      #{style} />
   </g>
