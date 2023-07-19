@@ -12,21 +12,35 @@ Tip: In the "right-click" menu select "Show source" to see the .SVG  source (tex
 
 
 
-## Recursive Punks
+### (Hundred) Best of Sub 1K (Inscriptions)
+
+All-In-One Composite - 100 recursions each 100×100px in 10×10 grid
+
+-  <https://ordtest.github.io/bestofsub1k.svg>
+
+
+### Recursive Punks
 
 133 .PNG "one-by-one" images - each 24×24px
 
 - <https://ordtest.github.io/recursivepunk0.svg> 
 
 
-## Ordinal Punks
+### Ordinal Punks
 
 2 .PNG "one-by-one" images - each 96×96px (8x)
 
 -  <https://ordtest.github.io/ordinalpunk1.svg> 
 
 
-## D.I.Y. Punks
+### 100 Ordinal Punks 
+
+All-In-One Composite - 100 recursions each 96×96px in 10×10 grid
+
+-  <https://ordtest.github.io/ordinalpunks.svg>
+
+
+### D.I.Y. Punks
 
 1 .PNG "spritesheet" image - 240×144px (10×6 grid - 24×24px)
 
@@ -34,7 +48,7 @@ Tip: In the "right-click" menu select "Show source" to see the .SVG  source (tex
 - <https://ordtest.github.io/diypunk1.svg>
 
 
-## D.I.Y. Apes
+### D.I.Y. Apes
 
 26 .PNG "one-by-one" images - each 24×24px
 

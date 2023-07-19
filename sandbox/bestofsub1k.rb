@@ -20,6 +20,14 @@ inscribes = [
 
   ['№70 - image/jpeg, 51146 bytes  - 600×502px', false, 
    'b1c5baa2593b256068635bbc475e0cc439d66c2dcf12e9de6f3aaeaf96ff818bi0'], 
+  ['№71 - image/png, 47633 bytes  - 1697×2400px ', false,
+   'e8ce0fcb238b377b3a6b9921333e26fbec5c5724c5bf6e783c3dcc1129794508i0'],
+
+  ['№91 - image/png, 225 bytes  - 24×24px', true, # pixelate
+   '87f028facde602fedb65210fb2cee0df3bc8e57323f1b9e7c566cd075170343di0'], 
+  ['№99 - image/png, 6727 bytes - 512×512px', true, # pixelate
+   '0d495be21c9aeda05a115735dcd8872df052bf54fa382ad39bed0f5efcdb4cfei0'], 
+   
   ['№573 - image/png, 381 bytes  - 96×96px', true,  # pixelate
    '96d87d7e59d75ebc0e6144b09fdd96355fcdaa86fd098d64c46f19a424012bbei0'], 
 ]
