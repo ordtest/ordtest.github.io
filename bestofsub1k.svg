@@ -3,16 +3,20 @@
   width="100%" height="100%"
   viewBox="0 0 1000 1000"
 >
-  <g transform="translate(0,0)" style="width: 100px; height=100px; image-rendering: pixelated;">
+  <g transform="translate(0,0)">
+   <!-- no.0  - image/png, 793 bytes -  100x100px  (pixelate) -->
    <image width="100" height="100"
-     href="/content/6fb976ab49dcec017f1e201e84395983204ae1a7c2abf7ced0a85d692e442799i0" />
+     href="/content/6fb976ab49dcec017f1e201e84395983204ae1a7c2abf7ced0a85d692e442799i0"
+     style="image-rendering: pixelated;" />
   </g>
-  <g transform="translate(100,0)" style="width: 100px; height: 100px;">
-   <image width="274" height="310"
+  <g transform="translate(100,0)">
+    <!-- no.1  - image/png, 20266 bytes  - 274x310px -->
+   <image width="100" height="100"
      href="/content/26482871f33f1051f450f2da9af275794c0b5f1c61ebf35e4467fb42c2813403i0" />
   </g>
-  <g transform="translate(200,0)" style="width: 100px; height: 100px;">
-   <image width="128" height="128"
+  <g transform="translate(200,0)">
+    <!-- no.2  - image/gif, 9371 bytes - 128x128px -->
+   <image width="100" height="100"
      href="/content/c17dd02a7f216f4b438ab1a303f518abfc4d4d01dcff8f023cf87c4403cb54cai0" />
   </g>
 </svg>
