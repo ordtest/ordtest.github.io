@@ -35,9 +35,7 @@ All-In-One Composites - 100 recursions each 100×100px in 10×10 grid
 -  <https://ordtest.github.io/ordinalpunk1.svg> 
 
 
-### 100 Ordinal Punks 
-
-All-In-One Composite - 100 recursions each 96×96px in 10×10 grid
+All-In-One 100 Ordinal Punks Composite - 100 recursions each 96×96px in 10×10 grid
 
 -  <https://ordtest.github.io/ordinalpunks.svg>
 

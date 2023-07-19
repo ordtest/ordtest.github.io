@@ -21,6 +21,8 @@ inscribes = [
    '9163af650dcdeeeb9a7e1f47f693b51921dce3bdf2475e69360ec83d9956f5d7i0'],
   [ '№23 - image/png, 54889 bytes - 960×540px', false,
    '0c107942e4c945b6b44e193c950b0fae65d854a88b450758a3fca54017c879bei0'],
+  [ '№26 - image/png, 50848 bytes', false,
+    'cfab194b924f7785c6e453728e1c264b89b74843633278cda3ad3f57576c1e93i0'],
 
   [ '№46 - image/jpeg, 28377 bytes - 609×900px', false,
    'e3e29332b269d0ae3fa28ac80427065d31b75f2c92baa729a3f8de363a0d66f6i0'],
@@ -30,9 +32,10 @@ inscribes = [
    ['№52 - image/png, 29294 bytes - 594×553px', false,
       'ab2f4e9dce0583264078428a91aa9037da0e75f90dc77fe3cba7cf5320ad003di0'],
 
+   ['№65 - image/jpeg, 111279 bytes', false,
+     'ec2127d7ff9dc54c50e70b24f338dc3df7f195331d91aef6bdc4be1814e4669ci0' ],   
   ['№69 - image/png, 21670 bytes  - 415×333px', false,
    'cd55a39d881663508a9340bafb4e860f016f16cb07bf6d34cf40bf5a62adf57bi0'],
-
 
   ['№70 - image/jpeg, 51146 bytes  - 600×502px', false, 
    'b1c5baa2593b256068635bbc475e0cc439d66c2dcf12e9de6f3aaeaf96ff818bi0'], 
@@ -44,6 +47,24 @@ inscribes = [
   ['№99 - image/png, 6727 bytes - 512×512px', true, # pixelate
    '0d495be21c9aeda05a115735dcd8872df052bf54fa382ad39bed0f5efcdb4cfei0'], 
    
+  ['№107 - image/webp, 91932 bytes', false,
+   '7d33c78c66e3dea3d4ebd6433afc31fcd7bcf3a058d04862ac0e5edc23bbdd80i0'],
+
+
+  ['№259 - image/jpeg, 25830 bytes', false,
+  'ca8c3e5142e721c1b17c00736d1ebe5d82cffef386e1c36c0ef0aefdafc3462fi0'], 
+  ['№260 - image/jpeg, 88147 bytes', false,
+    'b73bccdc76fee9365ad4c8b1c2351a806d26f594e0f09b7feaba0bd14da49352i0'], 
+  ['№285 - image/png, 329047 bytes', false,
+   '2759e39184301c0e182f32385d5ee914b2ca2b886c8f9f678d8cc4d193442602i0'], 
+  ['№288 - image/jpeg, 373504 bytes', false,
+   '8ded644a87f1d771d117b3dc698713e10c35c04965b0ab8353b941f78e336740i0'],  
+  ['№293 - image/png, 33901 bytes', false,
+   '4b7cc385734612355fd2a085117f8f39c5aee5a80b65554c54d9f9a45551340ei0'],
+
+  ['№378 - image/gif, 375414 bytes', true,  ## pixelate
+   '2edd2a1972beafeee32c98ca64ea48d1eccd012963bc4066895d74d35ad40209i0'],
+
   ['№388 - image/jpeg, 389858 bytes - 2355×1864px', false,
    '23b8c569b78b545c2d565d60f4dbf835c4adb7710d59627ed1bcf451d6b3fef6i0'],
 
