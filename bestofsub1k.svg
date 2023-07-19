@@ -1,0 +1,21 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="100%"
+  height="100%"
+  viewBox="0 0 1000 1000"
+>
+  <g transform="translate(0,0)" width="100" height="100">
+   <image
+     width="96"
+     height="96"
+     href="/content/96d87d7e59d75ebc0e6144b09fdd96355fcdaa86fd098d64c46f19a424012bbei0"
+     style="image-rendering: pixelated;" />
+  </g>
+  <g transform="translate(100,0)" width="100" height="100">
+   <image
+     width="274"
+     height="310"
+     href="/content/26482871f33f1051f450f2da9af275794c0b5f1c61ebf35e4467fb42c2813403i0"
+     />
+  </g>
+</svg>
