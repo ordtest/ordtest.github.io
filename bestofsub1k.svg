@@ -1,22 +1,40 @@
 <svg
   xmlns="http://www.w3.org/2000/svg"
   width="100%" height="100%"
-  viewBox="0 0 1000 1000"
->
+  viewBox="0 0 1000 1000">
   <g transform="translate(0,0)">
-   <!-- no.0  - image/png, 793 bytes -  100x100px  (pixelate) -->
-   <image width="100" height="100"
+   <!-- №0  - image/png, 793 bytes  - 100×100px -->
+   <image
+     width="100" height="100"
      href="/content/6fb976ab49dcec017f1e201e84395983204ae1a7c2abf7ced0a85d692e442799i0"
      style="image-rendering: pixelated;" />
   </g>
   <g transform="translate(100,0)">
-    <!-- no.1  - image/png, 20266 bytes  - 274x310px -->
-   <image width="100" height="100"
-     href="/content/26482871f33f1051f450f2da9af275794c0b5f1c61ebf35e4467fb42c2813403i0" />
+   <!-- №1  - image/png, 20266 bytes - 274×310px -->
+   <image
+     width="100" height="100"
+     href="/content/26482871f33f1051f450f2da9af275794c0b5f1c61ebf35e4467fb42c2813403i0"
+      />
   </g>
   <g transform="translate(200,0)">
-    <!-- no.2  - image/gif, 9371 bytes - 128x128px -->
-   <image width="100" height="100"
-     href="/content/c17dd02a7f216f4b438ab1a303f518abfc4d4d01dcff8f023cf87c4403cb54cai0" />
+   <!-- №2  - image/gif, 9371 bytes  - 128×128px -->
+   <image
+     width="100" height="100"
+     href="/content/c17dd02a7f216f4b438ab1a303f518abfc4d4d01dcff8f023cf87c4403cb54cai0"
+      />
+  </g>
+  <g transform="translate(300,0)">
+   <!-- №70 - image/jpeg, 51146 bytes  - 600×502px -->
+   <image
+     width="100" height="100"
+     href="/content/b1c5baa2593b256068635bbc475e0cc439d66c2dcf12e9de6f3aaeaf96ff818bi0"
+      />
+  </g>
+  <g transform="translate(400,0)">
+   <!-- №573 - image/png, 381 bytes  - 96×96px -->
+   <image
+     width="100" height="100"
+     href="/content/96d87d7e59d75ebc0e6144b09fdd96355fcdaa86fd098d64c46f19a424012bbei0"
+     style="image-rendering: pixelated;" />
   </g>
 </svg>

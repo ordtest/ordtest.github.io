@@ -16,10 +16,8 @@ puts "  #{data['items'].size} inscribe(s)"
 buf =<<TXT
 <svg
   xmlns="http://www.w3.org/2000/svg"
-  width="100%"
-  height="100%"
-  viewBox="0 0 960 960"
->
+  width="100%" height="100%"
+  viewBox="0 0 960 960">
 TXT
 
 data['items'].each_with_index do |rec,i|
@@ -31,9 +29,8 @@ data['items'].each_with_index do |rec,i|
 
 buf += <<TXT 
   <g transform="translate(#{x*96},#{y*96})">
-   <image
-     width="96"
-     height="96"
+   <!-- ordinal punk no. #{i+1} -->
+   <image width="96" height="96"
      href="/content/#{id}"
      style="image-rendering: pixelated;" />
   </g>
