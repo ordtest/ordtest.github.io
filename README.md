@@ -12,11 +12,13 @@ Tip: In the "right-click" menu select "Show source" to see the .SVG  source (tex
 
 
 
-### (Hundred) Best of Sub 1K (Inscriptions)
+###  Best of Inscriptions Series
 
-All-In-One Composite - 100 recursions each 100×100px in 10×10 grid
+All-In-One Composites - 100 recursions each 100×100px in 10×10 grid
 
--  <https://ordtest.github.io/bestofsub1k.svg>
+-  <https://ordtest.github.io/bestofsub1k.svg>   
+-  <https://ordtest.github.io/bestofpepes.svg>
+
 
 
 ### Recursive Punks
