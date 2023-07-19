@@ -12,6 +12,8 @@ ids = [
   '6fb976ab49dcec017f1e201e84395983204ae1a7c2abf7ced0a85d692e442799i0',
   # no.1  - image/png, 20266 bytes  - 274x310px
   '26482871f33f1051f450f2da9af275794c0b5f1c61ebf35e4467fb42c2813403i0',
+  # no.2  - image/gif, 9371 bytes   - 128x128px
+  'c17dd02a7f216f4b438ab1a303f518abfc4d4d01dcff8f023cf87c4403cb54cai0',
 ]
 
 ###
