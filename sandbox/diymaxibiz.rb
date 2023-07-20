@@ -25,7 +25,7 @@ specs.each_with_index do |spec,i|
 
     img = RecursiveImage.new( 24, 24 )
     g.each do |num|
-        ## spritesheet inscribe id - 240x216 (10x9 grid - 24x24px)
+        ## d.i.y. maxi biz (punks) spritesheet inscribe id - 240x216 (10x9 grid - 24x24px)
         img << ['ad56d4f242677ac334844002f1c27b9b636ba71f68590cdc0cc5a2cbce080990i0', 
                   {spritesheet: [240,216], 
                    num: num,

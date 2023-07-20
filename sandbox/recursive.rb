@@ -21,15 +21,22 @@ class RecursiveImage
   def height() @height; end
 
 
-  def to_svg
+  def to_svg( format=:standalone )
        buf = ''
      
+  if [:standalone].include?( format.downcase.to_sym )
         buf +=<<TXT
 <svg
   xmlns="http://www.w3.org/2000/svg"
   width="100%" height="100%"
   viewBox="0 0 #{width} #{height}">
 TXT
+  else  ## assume :inline/:embed or such
+      ## todo/check:  add px e.g. 100 => 100px - why? why not?
+       buf +=<<TXT
+  <svg width="#{width}" height="#{height}">
+TXT
+    end
 
 @recursions.each_with_index do |recursion,i|
     id, opts =  recursion.is_a?( Array )? recursion : [recursion, {}]
@@ -106,15 +113,24 @@ TXT
 @recursions.each_with_index do |recursion,i|
     y,x = i.divmod( @tile_cols ) 
 
-    id, opts =  recursion.is_a?( Array )? recursion : [recursion, {}]
+    if recursion.is_a?( RecursiveImage )
+      comment  =  "№#{i} @ (#{x}/#{y})"
+buf += <<TXT 
+  <g transform="translate(#{x*@tile_width},#{y*@tile_height})">
+   <!-- #{comment} -->
+   #{recursion.to_svg( :inline )}
+  </g>
+TXT
+    else
+      id, opts =  recursion.is_a?( Array )? recursion : [recursion, {}]
 
-    pixelate = opts.has_key?(:pixelate) ? opts[:pixelate]
-                                        : false
-    comment  = opts.has_key?(:comment) ? opts[:comment]
-                                       : "№#{i} @ (#{x}/#{y})"
+      pixelate = opts.has_key?(:pixelate) ? opts[:pixelate]
+                                          : false
+      comment  = opts.has_key?(:comment) ? opts[:comment]
+                                         : "№#{i} @ (#{x}/#{y})"
                             
     
-    style = pixelate ? %Q[style="image-rendering: pixelated;"] : ''
+      style = pixelate ? %Q[style="image-rendering: pixelated;"] : ''
 
 buf += <<TXT 
   <g transform="translate(#{x*@tile_width},#{y*@tile_height})">
@@ -125,7 +141,7 @@ buf += <<TXT
      #{style} />
   </g>
 TXT
-
+    end
 end
 
 
