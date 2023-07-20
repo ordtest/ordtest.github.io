@@ -1,0 +1,17 @@
+
+<!--
+   recursive composition example
+   - adds background  and headwear
+-->
+<svg xmlns="http://www.w3.org/2000/svg"
+   width="100%" height="100%"
+   viewBox="0 0 192 192">
+  <image width="192" height="192" href="/content/43e93e43f2dac75b141baaa5b08df440e0b6ec5755577a9554a7af6540447bb7i0" 
+     style="image-rendering: pixelated;" />
+  <image href="/content/8c1ab6c146389d5f4c6d4a5783284ad5e35265e75d27dd6a12a73c2d7260d86ei0" 
+     style="image-rendering: pixelated;" />
+  <image href="/content/1f7b1e79290091b771b2c78b2b0275efd09c6faf3090d05162a66f491c9f247bi0" 
+     style="image-rendering: pixelated;" />
+  <image width="192" height="192" href="/content/0bd902941392ea138adb7db30cecdf5bc09a92c80e3e1bc3ecdf3c2d0abf6631i0" 
+     style="image-rendering: pixelated;" />    
+</svg>

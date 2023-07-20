@@ -70,6 +70,22 @@ All-In-One 100 Ordinal Punks Composite - 100 recursions each 96×96px in 10×10 
 - <https://ordtest.github.io/diymartian9.svg> 
 
 
+### D.I.Y. Maxi Biz (Punks)
+
+1 .PNG "spritesheet" image - 240×216px (10×9 grid - 24×24px)
+
+- <https://ordtest.github.io/diymaxibiz0.svg>
+- <https://ordtest.github.io/diymaxibiz1.svg>
+- <https://ordtest.github.io/diymaxibiz2.svg>
+- <https://ordtest.github.io/diymaxibiz3.svg>
+- <https://ordtest.github.io/diymaxibiz4.svg>
+- <https://ordtest.github.io/diymaxibiz5.svg>
+- <https://ordtest.github.io/diymaxibiz6.svg>
+- <https://ordtest.github.io/diymaxibiz7.svg>
+- <https://ordtest.github.io/diymaxibiz8.svg>
+- <https://ordtest.github.io/diymaxibiz9.svg>
+
+
 
 ### D.I.Y. Lost Files
 
