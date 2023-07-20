@@ -35,6 +35,17 @@ All-In-One Composites - 50 recursions each 100×100px in 10×5 grid
 -  <https://ordtest.github.io/ordinalpunk1.svg> 
 
 
+... recursive composition samples 
+... that is, let's add more layers to inscriptions via recursions. let's try ordinal punk no. 1 and let's add bitcoin orange pattern (background) and cap forward (headwear) via recursions:
+
+-  <https://ordtest.github.io/ordinalpunk1a.svg> 
+
+note: this works with any (pre-made) ordinal punk. 
+let's try ordinal punk no. 93 (orc with eyemask, golden chain, etc.) and let's add greenback dollar pattern (background) and top hat (headwear) via recursions:
+
+-  <https://ordtest.github.io/ordinalpunk93a.svg> 
+
+
 All-In-One 100 Ordinal Punks Composite - 100 recursions each 96×96px in 10×10 grid
 
 -  <https://ordtest.github.io/ordinalpunks.svg>
