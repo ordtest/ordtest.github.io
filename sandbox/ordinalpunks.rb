@@ -7,41 +7,28 @@
 
 require 'cocos'
 
+require_relative 'recursive'
 
 
 data = read_json( "./tmp/ordinalpunks.json" )
 puts "  #{data['items'].size} inscribe(s)"
 
 
-buf =<<TXT
-<svg
-  xmlns="http://www.w3.org/2000/svg"
-  width="100%" height="100%"
-  viewBox="0 0 960 960">
-TXT
+composite = RecursiveImageComposite.new( 10, 10, width: 96,
+                                                 height: 96 )
+
 
 data['items'].each_with_index do |rec,i|
    puts "==> #{rec['name']}..."
 
-   id = rec['inscription_id']
+   id      = rec['inscription_id']
+   comment = rec['name'] 
 
-   y,x = i.divmod( 10 ) 
-
-buf += <<TXT 
-  <g transform="translate(#{x*96},#{y*96})">
-   <!-- ordinal punk no. #{i+1} -->
-   <image width="96" height="96"
-     href="/content/#{id}"
-     style="image-rendering: pixelated;" />
-  </g>
-TXT
+   composite << [id, {pixelate: true,
+                      comment:  comment}]
 end
 
-buf += <<TXT
-</svg>
-TXT
-
-
+buf = composite.to_svg
 puts buf
 
 write_text( "./ordinalpunks.svg", buf )

@@ -8,6 +8,9 @@
 require 'ordinals'
 require 'cocos'
 
+require_relative 'recursive'
+
+
 
 inscribes = [
   ['№9 - image/webp, 34140 bytes', false,
@@ -54,13 +57,8 @@ inscribes = [
 puts "  #{inscribes.size} inscribe(s)"
 
 
-buf =<<TXT
-<svg
-  xmlns="http://www.w3.org/2000/svg"
-  width="100%" height="100%"
-  viewBox="0 0 1000 500">
-TXT
-
+composite = RecursiveImageComposite.new( 10, 5, width: 100,
+                                                height: 100)
 
 inscribes.each_with_index do |(comment, pixelate, id),i|
 
@@ -85,28 +83,12 @@ inscribes.each_with_index do |(comment, pixelate, id),i|
       sleep( 0.5 )
    end
 
-   y,x = i.divmod( 10 ) 
-
-style = pixelate ? %Q[style="image-rendering: pixelated;"] : ''
-      
-
-buf += <<TXT 
-  <g transform="translate(#{x*100},#{y*100})">
-   <!-- #{comment} -->
-   <image
-     width="100" height="100"
-     href="/content/#{id}"
-     #{style} />
-  </g>
-TXT
-end
+   composite << [id, {pixelate: pixelate, 
+                      comment:  comment}]
+end 
 
 
-buf += <<TXT
-</svg>
-TXT
-
-
+buf = composite.to_svg
 puts buf
 
 write_text( "./bestofpepes.svg", buf )
