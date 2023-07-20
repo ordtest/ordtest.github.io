@@ -1,4 +1,9 @@
-<svg width="192px" height="192px" xmlns="http://www.w3.org/2000/svg">
-  <image href="/content/8c1ab6c146389d5f4c6d4a5783284ad5e35265e75d27dd6a12a73c2d7260d86ei0" />
-  <image href="/content/1f7b1e79290091b771b2c78b2b0275efd09c6faf3090d05162a66f491c9f247bi0" />
+
+<svg xmlns="http://www.w3.org/2000/svg"
+   width="100%" height="100%"
+   viewBox="0 0 192 192">
+  <image href="/content/8c1ab6c146389d5f4c6d4a5783284ad5e35265e75d27dd6a12a73c2d7260d86ei0" 
+     style="image-rendering: pixelated;" />
+  <image href="/content/1f7b1e79290091b771b2c78b2b0275efd09c6faf3090d05162a66f491c9f247bi0" 
+     style="image-rendering: pixelated;" />
 </svg>

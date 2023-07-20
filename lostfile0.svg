@@ -5,20 +5,27 @@
          10  (x 2, y 2)         x 2*24px = 48px, y 2*24px = 48px
          10  (x 2, y 2)         x 2*24px = 48px, y 2*24px = 48px
 -->
-<svg width="24px" height="24px" xmlns="http://www.w3.org/2000/svg">
+<svg xmlns="http://www.w3.org/2000/svg"
+   width="100%" height="100%"
+   viewBox="0 0 24 24">
    <svg viewBox="0 0 24 24">
-      <image width="96px" height="96px" href="/content/a3fb4ad6ed9654f236a2cb82a101022937c4aecabee4e6b3485e4f0fe26cd855i0" />
+      <image href="/content/a3fb4ad6ed9654f236a2cb82a101022937c4aecabee4e6b3485e4f0fe26cd855i0" 
+         style="image-rendering: pixelated;" />
     </svg>
    <svg viewBox="0 24 24 24">
-      <image width="96px" height="96px" href="/content/51462e54abfc85be2f813b275ee7ae71f787a771dd14cdd7cf1bf351fa0aa98bi0" />
+      <image href="/content/51462e54abfc85be2f813b275ee7ae71f787a771dd14cdd7cf1bf351fa0aa98bi0" 
+         style="image-rendering: pixelated;" />
     </svg>
    <svg viewBox="72 0 24 24">
-      <image width="96px" height="96px" href="/content/1f2fa0155e47da349d964c79561db50af509ae2ce3fc7ee398fab904cba4cca5i0" />
+      <image href="/content/1f2fa0155e47da349d964c79561db50af509ae2ce3fc7ee398fab904cba4cca5i0" 
+         style="image-rendering: pixelated;" />
     </svg>
    <svg viewBox="48 48 24 24">
-      <image width="96px" height="96px" href="/content/edb39fd1f0f33b9e989fa32a5a9a2962f806f4cd487f7e30f700014f13ed19aci0" />
+      <image href="/content/edb39fd1f0f33b9e989fa32a5a9a2962f806f4cd487f7e30f700014f13ed19aci0" 
+         style="image-rendering: pixelated;" />
     </svg>
    <svg viewBox="48 48 24 24">
-      <image width="96px" height="96px" href="/content/1199a91694b810b8d65270d5826262240d998ef5e295358e919318bd8e65f016i0" />
+      <image href="/content/1199a91694b810b8d65270d5826262240d998ef5e295358e919318bd8e65f016i0" 
+         style="image-rendering: pixelated;" />
     </svg>
 </svg>
