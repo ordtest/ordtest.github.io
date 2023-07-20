@@ -54,6 +54,22 @@ All-In-One 100 Ordinal Punks Composite - 100 recursions each 96×96px in 10×10 
 
 - <https://ordtest.github.io/diyape0.svg> 
 
+### D.I.Y. Martians - Aliens Vol. 2
+
+50 .PNG "one-by-one" images - each 24×24px
+
+- <https://ordtest.github.io/diymartian0.svg> 
+- <https://ordtest.github.io/diymartian1.svg> 
+- <https://ordtest.github.io/diymartian2.svg> 
+- <https://ordtest.github.io/diymartian3.svg> 
+- <https://ordtest.github.io/diymartian4.svg> 
+- <https://ordtest.github.io/diymartian5.svg> 
+- <https://ordtest.github.io/diymartian6.svg> 
+- <https://ordtest.github.io/diymartian7.svg> 
+- <https://ordtest.github.io/diymartian8.svg> 
+- <https://ordtest.github.io/diymartian9.svg> 
+
+
 
 ### D.I.Y. Lost Files
 
