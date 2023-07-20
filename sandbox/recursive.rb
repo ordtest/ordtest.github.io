@@ -39,11 +39,26 @@ TXT
                                
     style = pixelate ? %Q[style="image-rendering: pixelated;"] : ''
 
+    ## note: assumes spritesheet has tile of same size as image itself!!!!
+    spritesheet = opts[:spritesheet]
+    if spritesheet
+        num = opts[:num] || opts[:tile]
+        spritesheet_width = spritesheet[0] 
+        tile_cols = spritesheet_width/width
+        y,x = num.divmod( tile_cols ) 
+      
+buf += <<TXT 
+    <svg viewBox="#{x*width} #{y*height} #{width} #{height}">
+      <image href="/content/#{id}"
+        #{style} />
+    </svg>
+TXT
+    else
 buf += <<TXT 
    <image href="/content/#{id}"
      #{style} />
 TXT
-
+    end
 end
 
        buf += <<TXT

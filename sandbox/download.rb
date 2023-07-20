@@ -147,6 +147,9 @@ ids = [
   ## d.i.y. punks (spritesheet)  - 240x144px  (10x6 grid - 24x24px)
   'cf5df319bbe23fa3d012e5ee0810700c8e82aebff41164246f0d87d7b60a9903i0',
 
+  ## d.i.y. maxi biz (spritesheet) - 240x216 (10x9 grid - 24x24px)
+  'ad56d4f242677ac334844002f1c27b9b636ba71f68590cdc0cc5a2cbce080990i0',
+
   ## ordinal punk no. 1 (flow stay)  - 192x192px (8x)
   '8c1ab6c146389d5f4c6d4a5783284ad5e35265e75d27dd6a12a73c2d7260d86ei0',
   '1f7b1e79290091b771b2c78b2b0275efd09c6faf3090d05162a66f491c9f247bi0',
