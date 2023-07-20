@@ -1,12 +1,9 @@
-require 'cocos'
-
-require_relative 'recursive' 
+require 'ordinals'
 
 
 ## add first nine base types
 ##  with bitcoin pattern background
 ##   in 3x3 grid composite
-
 
 specs = [
   [59,0],  

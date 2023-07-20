@@ -6,9 +6,7 @@
 
 
 require 'ordinals'
-require 'cocos'
 
-require_relative 'recursive'
 
 
 inscribes = [

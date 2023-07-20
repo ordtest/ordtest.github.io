@@ -1,6 +1,9 @@
-require 'cocos'
+require 'ordinals'
 
-require_relative 'recursive' 
+
+require_relative 'recursive'
+
+
 
 specs = [
   '41 0 39 37 23 8',
@@ -74,15 +77,15 @@ puts "  #{specs.size} mint(s)"
 puts "  #{inscribes.size} inscribe(s)"
 
 
+
+diymartians = RecursiveGenerator.new( 24, 24, 
+                                      inscribes: inscribes )
+
 specs.each_with_index do |spec,i|
-    g = spec.split( /[ ]/ ).map { |str| str.to_i(10) }
+    g = diymartians._parse( spec )
     puts "==> #{i} - g: #{g.inspect}"
 
-    img = RecursiveImage.new( 24, 24 )
-    g.each do |num|
-        id = inscribes[num]
-        img << [id, {pixelate: true}]
-    end
+    img = diymartians.generate( *g )
  
     buf = img.to_svg
     puts buf
