@@ -16,7 +16,7 @@ composite = RecursiveImageComposite.new( 10, 10, width: 96,
                                                  height: 96 )
 
 
-data['items'].each_with_index do |rec,i|
+data['items'].each do |rec|
    puts "==> #{rec['name']}..."
 
    id      = rec['inscription_id']

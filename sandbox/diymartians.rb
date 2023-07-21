@@ -1,7 +1,6 @@
 require 'ordinals'
 
 
-
 inscribes = [
     '0829dc471f8bb92a971dfdfb00a71c016b833c8f1d5f39dcb15aa5535d08fc15i0',
     '9482552ec759b76577b28923741eb4bfc7770cead528755bf8fa44196ae9318ci0',

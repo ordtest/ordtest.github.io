@@ -8,7 +8,6 @@
 require 'ordinals'
 
 
-
 inscribes = [
   ['№9 - image/webp, 34140 bytes', false,
    'a4b5580db345db7534b74371f40562ba0d6f79fd272e05c62c05db1b62996d23i0'],
@@ -54,32 +53,15 @@ inscribes = [
 puts "  #{inscribes.size} inscribe(s)"
 
 
+## note: make sure inscription is cached in sandbox (./content)
+sandbox =  Ordinals::Sandbox.new( './content' )
+sandbox.add_data( inscribes )
+
+
 composite = RecursiveImageComposite.new( 10, 5, width: 100,
                                                 height: 100)
 
-inscribes.each_with_index do |(comment, pixelate, id),i|
-
-   path    = "./content/#{id}"
-   if File.exist?( path )
-      ## puts "  in cache"
-   else
-      ## note: save text as blob - byte-by-byte as is  (might be corrupt text)
-
-      content = Ordinals.content( id )
-      pp content
-      #=> #<Ordinals::Api::Content:0x000001a1352df938
-      #      @data="RIFF\xF8\v\x00\x00WEBPVP8 \xEC\v\x00\x00...",
-      #      @length=3072,
-      #      @type="image/png"
-
-      puts "data:"
-      puts content.data
-
-      write_blob( path, content.data )
-
-      sleep( 0.5 )
-   end
-
+inscribes.each do |comment, pixelate, id|
    composite << [id, {pixelate: pixelate, 
                       comment:  comment}]
 end 
