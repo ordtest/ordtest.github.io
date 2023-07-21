@@ -6,7 +6,6 @@
 
 
 require 'ordinals'
-require 'cocos'
 
 
 

@@ -1,6 +1,8 @@
-require 'cocos'
+require 'ordinals'
 
-require_relative 'recursive' 
+
+require_relative 'recursive'
+
 
 specs = [
    '87 6 25 41 74 59',
@@ -18,19 +20,20 @@ specs = [
 puts "  #{specs.size} mint(s)"
 
 
+## single spritesheet
+inscribes = [
+    ['ad56d4f242677ac334844002f1c27b9b636ba71f68590cdc0cc5a2cbce080990i0', { width: 240, height: 216 }],
+]
+
+diymaxibiz = RecursiveGenerator.new( 24, 24, 
+                                      inscribes: inscribes )
+
 
 specs.each_with_index do |spec,i|
-    g = spec.split( /[ ]/ ).map { |str| str.to_i(10) }
+    g = diymaxibiz._parse( spec )
     puts "==> #{i} - g: #{g.inspect}"
 
-    img = RecursiveImage.new( 24, 24 )
-    g.each do |num|
-        ## d.i.y. maxi biz (punks) spritesheet inscribe id - 240x216 (10x9 grid - 24x24px)
-        img << ['ad56d4f242677ac334844002f1c27b9b636ba71f68590cdc0cc5a2cbce080990i0', 
-                  {spritesheet: [240,216], 
-                   num: num,
-                   pixelate: true,}]
-    end
+    img = diymaxibiz.generate( *g )
  
     buf = img.to_svg
     puts buf

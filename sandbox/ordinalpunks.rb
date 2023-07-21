@@ -5,9 +5,7 @@
 #  $ ruby sandbox/ordinalpunks.rb
 
 
-require 'cocos'
-
-require_relative 'recursive'
+require 'ordinals'
 
 
 data = read_json( "./tmp/ordinalpunks.json" )

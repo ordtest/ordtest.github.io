@@ -55,22 +55,27 @@ All-In-One 100 Ordinal Punks Composite - 100 recursions each 96×96px in 10×10 
 
 1 .PNG "spritesheet" image - 240×144px (10×6 grid - 24×24px)
 
-- <https://ordtest.github.io/diypunk0.svg>
-- <https://ordtest.github.io/diypunk1.svg>
+- <https://ordtest.github.io/diypunk0.svg>  - d.i.y. punk no. 0
+- <https://ordtest.github.io/diypunk1.svg>  - d.i.y. punk no. 1
+
+
+D.I.Y. Punk Composites 
+
+- <https://ordtest.github.io/diypunks.svg>  - 3x3 grid - nine d.i.y. punks (recursions) with bitcoin pattern
 
 
 ### D.I.Y. Apes
 
 26 .PNG "one-by-one" images - each 24×24px
 
-- <https://ordtest.github.io/diyape0.svg> 
+- <https://ordtest.github.io/diyape0.svg>   - d.i.y. ape no. 0
 
 ### D.I.Y. Martians - Aliens Vol. 2
 
 50 .PNG "one-by-one" images - each 24×24px
 
-- <https://ordtest.github.io/diymartian0.svg> 
-- <https://ordtest.github.io/diymartian1.svg> 
+- <https://ordtest.github.io/diymartian0.svg>    - d.i.y. martian no. 0
+- <https://ordtest.github.io/diymartian1.svg>    - d.i.y. martian no. 1
 - <https://ordtest.github.io/diymartian2.svg> 
 - <https://ordtest.github.io/diymartian3.svg> 
 - <https://ordtest.github.io/diymartian4.svg> 
@@ -108,5 +113,8 @@ All-In-One 100 Ordinal Punks Composite - 100 recursions each 96×96px in 10×10 
 
 ## Questions? Comments?
 
-Post them over at the [Help & Support](https://github.com/geraldb/help) page. Thanks.
+Join us in the [Ordgen / ORC-721 discord (chat server)](https://discord.gg/dDhvHKjm2t). Yes you can.
+Your questions and commetary welcome.
+
+Or post them over at the [Help & Support](https://github.com/geraldb/help) page. Thanks.
 
