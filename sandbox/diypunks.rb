@@ -1,24 +1,9 @@
 require 'ordinals'
 
 
-require_relative 'recursive'
-
-
 ## add first nine base types
 ##  with bitcoin pattern background
 ##   in 3x3 grid composite
-
-specs = [
-  '59 0',  
-  '59 1',  
-  '59 2',  
-  '59 3',  
-  '59 4',  
-  '59 5',  
-  '59 6',  
-  '59 7',  
-  '59 8',  
-]
 
 
 ## single spritesheet
@@ -34,7 +19,17 @@ composite = RecursiveImageComposite.new( 3, 3, width: 24,
                                                height: 24)
 
 
-specs.each_with_index do |spec,i|
+[
+  '59 0',  
+  '59 1',  
+  '59 2',  
+  '59 3',  
+  '59 4',  
+  '59 5',  
+  '59 6',  
+  '59 7',  
+  '59 8',  
+].each_with_index do |spec,i|
     g = diypunks._parse( spec )
     puts "==> #{i} - #{g.inspect}"
 

@@ -1,23 +1,6 @@
 require 'ordinals'
 
 
-require_relative 'recursive'
-
-
-
-specs = [
-  '41 0 39 37 23 8',
-  '44 1 10 23',
-  '46 3 21 15',
-  '47 2 39 26 37',
-  '47 4 39 20 33 35 36',
-  '41 0 32 35 13 36',
-  '44 6 16 28 37 34 35',
-  '41 0 10 33 34 35 36 8 7',
-  '48 2 33 8 34 35 37 14',
-  '49 3 21 14 35 34 35 37 18 14',
-]
-
 
 inscribes = [
     '0829dc471f8bb92a971dfdfb00a71c016b833c8f1d5f39dcb15aa5535d08fc15i0',
@@ -72,8 +55,6 @@ inscribes = [
     '47cb34f1d73371df0b27ca0a259927fa80e2b2d9ee0e1d487fca5c9029b67b49i0',  
 ]
 
-
-puts "  #{specs.size} mint(s)"
 puts "  #{inscribes.size} inscribe(s)"
 
 
@@ -81,7 +62,19 @@ puts "  #{inscribes.size} inscribe(s)"
 diymartians = RecursiveGenerator.new( 24, 24, 
                                       inscribes: inscribes )
 
-specs.each_with_index do |spec,i|
+
+[
+  '41 0 39 37 23 8',
+  '44 1 10 23',
+  '46 3 21 15',
+  '47 2 39 26 37',
+  '47 4 39 20 33 35 36',
+  '41 0 32 35 13 36',
+  '44 6 16 28 37 34 35',
+  '41 0 10 33 34 35 36 8 7',
+  '48 2 33 8 34 35 37 14',
+  '49 3 21 14 35 34 35 37 18 14',
+].each_with_index do |spec,i|
     g = diymartians._parse( spec )
     puts "==> #{i} - g: #{g.inspect}"
 

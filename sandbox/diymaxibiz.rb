@@ -1,24 +1,6 @@
 require 'ordinals'
 
 
-require_relative 'recursive'
-
-
-specs = [
-   '87 6 25 41 74 59',
-   '87 6 25 41 74',
-   '87 6 25 41',
-   '84 13 68 33 73',
-   '87 12 21 38 46 73',
-   '84 14 66 35 73',
-   '84 11 35 69 72',
-   '84 1 44 73 40',
-   '87 3 40 43 73',
-   '87 83 77',
-]
-
-puts "  #{specs.size} mint(s)"
-
 
 ## single spritesheet
 inscribes = [
@@ -29,7 +11,18 @@ diymaxibiz = RecursiveGenerator.new( 24, 24,
                                       inscribes: inscribes )
 
 
-specs.each_with_index do |spec,i|
+[
+   '87 6 25 41 74 59',
+   '87 6 25 41 74',
+   '87 6 25 41',
+   '84 13 68 33 73',
+   '87 12 21 38 46 73',
+   '84 14 66 35 73',
+   '84 11 35 69 72',
+   '84 1 44 73 40',
+   '87 3 40 43 73',
+   '87 83 77',
+].each_with_index do |spec,i|
     g = diymaxibiz._parse( spec )
     puts "==> #{i} - g: #{g.inspect}"
 
