@@ -110,6 +110,17 @@ D.I.Y. Punk Composites
 - <https://ordtest.github.io/lostfile0.svg> 
 
 
+### D.I.Y. Monkes
+
+1 .PNG "spritesheet" image - 280×168px (10×6 grid - 28×28px)
+
+- <https://ordtest.github.io/diymonke1.svg> 
+- <https://ordtest.github.io/diymonke1a.svg> 
+- <https://ordtest.github.io/diymonke1b.svg> 
+- <https://ordtest.github.io/diymonke2.svg> 
+- <https://ordtest.github.io/diymonke2a.svg> 
+
+
 
 ## Questions? Comments?
 
