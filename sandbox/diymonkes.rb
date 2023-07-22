@@ -12,11 +12,11 @@ diymonkes = RecursiveGenerator.new( 28, 28,
 
 
 {
-  '1'  => '54 54',
+  '1'  => '54 55',
   '1a' => '57 54 28 52 55',
   '1b' => '56 54 25 34 53',
   '2'  => '7 18 48 52',
-  '2a' => ' 58 7 13 45 53',
+  '2a' => '58 7 13 45 53',
 }.each do |name, spec|
     g = diymonkes._parse( spec )
     puts "==> #{name} - g: #{g.inspect}"
