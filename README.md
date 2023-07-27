@@ -122,6 +122,14 @@ D.I.Y. Punk Composites
 
 
 
+### More
+
+210 Shrooms All-In-One Composites 
+
+- <https://ordtest.github.io/shrooms.svg>  - 20×11 grid - 210 shrooms (recursions) 
+
+
+
 ## Questions? Comments?
 
 Join us in the [Ordgen / ORC-721 discord (chat server)](https://discord.gg/dDhvHKjm2t). Yes you can.
