@@ -124,9 +124,9 @@ D.I.Y. Punk Composites
 
 ### More
 
-210 Shrooms All-In-One Composites 
+All-In-One 210 Shrooms Composites - 210 recursions (each 100×100px) in 20×11 grid  
 
-- <https://ordtest.github.io/shrooms.svg>  - 20×11 grid - 210 shrooms (recursions) 
+- <https://ordtest.github.io/shrooms.svg>
 
 
 
