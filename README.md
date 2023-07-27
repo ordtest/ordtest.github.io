@@ -128,6 +128,10 @@ All-In-One 210 Shrooms Composites - 210 recursions (each 100×100px) in 20×11 g
 
 - <https://ordtest.github.io/shrooms.svg>
 
+All-In-One 10 Shadow Hats Composites - 10 recursions (each 100×100px) in 5×2 grid  
+
+- <https://ordtest.github.io/shadowhats.svg>
+
 
 
 ## Questions? Comments?
