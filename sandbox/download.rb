@@ -5,12 +5,14 @@
 #  $ ruby sandbox/download.rb
 
 
+$LOAD_PATH.unshift( "../ordbase/ordinals/lib" )
 require 'ordinals'
 
 
 sandbox = Ordinals::Sandbox.new( './content' )
 
-sandbox.add_csv( './sandbox/inscriptions.csv' )
+## sandbox.add_csv( './sandbox/inscriptions.csv' )
+sandbox.add_csv( './sandbox/shrooms_inscriptions.csv')
 
 ## sandbox.add_collection( "./tmp/ordinalpunks.json" )
 
